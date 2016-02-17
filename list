@@ -1,0 +1,76 @@
+# common section
+$SOA 1h rbl.buka.one.pl admin.rbl.buka.one.pl 0 1h 2h 1w 1h
+
+$DATASET ip4trie:ip @
+$TTL 300
+:127.0.0.2: RBL list
+
+155.133.19.219
+176.111.154.0/24
+176.31.134.78
+176.31.134.80
+184.171.254.0/24
+185.70.36.0/22
+185.58.226.0/24
+188.165.20.60
+193.219.6.0/24
+194.181.15.40
+31.193.192.0/24
+5.196.18.34
+5.249.152.0/21
+51.254.0.0/15
+62.75.195.0/24
+62.75.197.0/24
+62.75.207.0/24
+64.37.57.0/24
+67.23.248.0/24
+67.23.250.0/24
+81.2.192.0/18
+91.121.143.98
+91.194.157.171
+92.61.36.0/24
+93.127.237.128/25
+94.152.193.0/24
+94.230.219.128/26
+176.31.34.175
+51.254.27.0/24
+151.80.237.110
+46.41.132.0/24
+31.14.128.0/20
+89.38.149.0/24
+89.36.208.0/22
+89.38.148.0/22
+89.46.72.0/21
+46.36.32.0/19
+94.152.11.0/24
+195.114.1.248
+
+
+
+$DATASET dnset:revdns @
+$TTL 300
+companiero.waw.pl SPAM reported
+link-outer.com SPAM reported
+24thegreatest.com SPAM reported
+absenergia.pl SPAM reported
+action-gamez.com SPAM reported
+augustnewo.com SPAM reported
+biuro.caffeprint.eu SPAM reported
+caffeprint.eu SPAM reported
+company-catalogs.com SPAM reported
+contadb.com SPAM reported
+dietanawiosne.pl SPAM reported
+e-bazy.com SPAM reported
+ebazafirm.com SPAM reported
+linksensce.com SAPM reported
+mailing-systemy.pl SPAM reported
+mta1-hub.info SPAM reported
+megarabaty.co.pl SPAM reported
+roldes.com SPAM reported
+serve-links.com SPAM reported
+skladofert.pl SPAM reported
+witalni.pl SPAM reported
+konferencjeksi.com.pl SPAM reported
+mail2.konferencjeksi.com.pl SPAM reported
+link-meter.com SPAM reported
+mailing.prosperita.pl SPAM reported
