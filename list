@@ -3,6 +3,7 @@ $SOA 1h rbl.buka.one.pl admin.rbl.buka.one.pl 0 1h 2h 1w 1h
 
 $DATASET ip4trie:ip @
 $TTL 300
+$NS 600 ns1.buka.one.pl.
 :127.0.0.2: RBL list
 
 155.133.19.219
