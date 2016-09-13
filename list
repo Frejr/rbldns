@@ -1,5 +1,5 @@
 # common section
-$SOA 1h rbl.buka.one.pl admin.rbl.buka.one.pl 0 1h 2h 1w 1h
+$SOA 1h ns1.buka.one.pl admin.rbl.buka.one.pl 0 1h 2h 1w 1h
 
 $DATASET ip4trie:ip @
 $TTL 300
@@ -45,7 +45,8 @@ $NS 600 ns1.buka.one.pl.
 46.36.32.0/19
 94.152.11.0/24
 195.114.1.248
-
+94.152.156.154
+46.41.131.138
 
 
 $DATASET dnset:revdns @
@@ -77,3 +78,5 @@ link-meter.com SPAM reported
 mailing.prosperita.pl SPAM reported
 link-survey.com SPAM @Wed, 17 Feb 2016 04:57:53 +0100
 advertsportal.com SPAM @Thu, 25 Feb 2016
+miedzynarodowe.waw.pl SPAM @06.09.2016
+webazy.pl SPAM@Tue, 13 Sep 2016
