@@ -1,9 +1,9 @@
 # common section
-$SOA 1h ns1.buka.one.pl admin.rbl.buka.one.pl 0 1h 2h 1w 1h
+$SOA 1h local.buka.one.pl admin.rbl.buka.one.pl 0 1h 2h 1w 1h
 
-$DATASET ip4trie:ip @
+$DATASET ip4set:ip @
 $TTL 300
-$NS 600 ns1.buka.one.pl.
+$NS 600 local.buka.one.pl.
 :127.0.0.2: RBL list
 
 155.133.19.219
@@ -47,6 +47,7 @@ $NS 600 ns1.buka.one.pl.
 195.114.1.248
 94.152.128.0/19
 46.41.131.138
+2a03:f480:1::/48
 
 
 $DATASET dnset:revdns @
@@ -80,3 +81,13 @@ link-survey.com SPAM @Wed, 17 Feb 2016 04:57:53 +0100
 advertsportal.com SPAM @Thu, 25 Feb 2016
 miedzynarodowe.waw.pl SPAM @06.09.2016
 webazy.pl SPAM@Tue, 13 Sep 2016
+serveread.com SPAM@01 Jan 2017
+ebaza.net SPAM@2017-02-08
+optimummail.pl SPAM
+socialarena.eu SPAM
+silvanderleatoday.com 20170307
+smtpp.energiana2018.pl SPAM
+sprawnymailing.pl SPAM @08 May 2017
+grandezza.pl SPAM @08 Jun 2017
+rozwojfirmy.com.pl SPAM @2017-10-26
+info.emailcloud.pl SPAM @2017-10-27
